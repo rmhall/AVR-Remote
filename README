@@ -4,7 +4,7 @@ Made public 02/01/2012
 AVR Remote Pro
 Author: Robert M. Hall - http://www.impossibilities.com/
  
-An Adobe AIR based application for desktop/Android/iOS that allows two remote control and status info of most late model (Winter 2010-current) network capable Onkyo and Integra AVR's (Audio Video Receivers) over ethernet/WiFi via TCP sockets and a special Onkyo protocol.
+An Adobe AIR based application for desktop/Android/iOS that allows for remote control and status info of most late model (Winter 2010-current) network capable Onkyo and Integra AVR's (Audio Video Receivers) over ethernet/WiFi via TCP sockets and a special Onkyo protocol.
  
 See the WATCHME.mov video in the repo to see the UI of the app in action, and a longer overview and working demo with the equipment here:
 http://clients.impossibilities.com/avr_remote_pro/avr_remote_demo_video-desktop.mp4
