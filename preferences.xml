@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preferences>
+  <saveDate>Thu Apr 21 23:23:03 GMT-0400 2011</saveDate>
+  <AVR>Onkyo HT-RC270</AVR>
+  <AVR_NAME>HT-RC270 ManCave</AVR_NAME>
+  <AVR_IP>192.168.1.21</AVR_IP>
+  <AVR_PORT>60128</AVR_PORT>
+  <AVR_MAC>00:09:B0:43:93:79</AVR_MAC>
+  <AVR_UPNP>true</AVR_UPNP>
+</preferences>

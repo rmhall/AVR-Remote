@@ -1,0 +1,26 @@
+First commit 09/29/2011
+Made public 02/01/2012
+
+AVR Remote Pro
+Author: Robert M. Hall - http://www.impossibilities.com/
+ 
+An Adobe AIR based application for desktop/Android/iOS that allows two remote control and status info of most late model (Winter 2010-current) network capable Onkyo and Integra AVR's (Audio Video Receivers) over ethernet/WiFi via TCP sockets and a special Onkyo protocol.
+ 
+See the WATCHME.mov video in the repo to see the UI of the app in action, and a longer overview and working demo with the equipment here:
+http://clients.impossibilities.com/avr_remote_pro/avr_remote_demo_video-desktop.mp4
+
+Initial commit and implementation has been tested against an Onkyo HT-RC270 AVR. It contains support for basic communications, with a command queue mananger class for handling UDP data (in and out), basic UI, preferences storage/retrieval, volume control, input selection, AVR http server view, etc.
+ 
+It works well for some of the most basic commonly used items, but there is quite a bit to do including managing the feature sets between various models and the hundreds if not thousands of features the AVR's support. HDMI RI is high on the list to control other attached devices that support HDMI RI.
+
+AIR currently lacks support for UDP on mobile and broadcast adresses on UDP so a few features revolving around autoconfig that could be done via UPnP wont be possible until supported by AIR, but would be perfect candidates for implementing via an AIR Native Extension: https://www.adobe.com/devnet/air/articles/extending-air.html
+
+This project started out as a proof of concept and works pretty well, but I did not have the time to dedicate to completing it, and with Onkyo having released their own native app (check out version 2, their first implementation wasn't so hot) for iOS and Android, as well as great native apps like ORemote - I just didn't pursue it much further.
+
+It works well for some of the most basic commonly used items, but there is quite a bit to do including managing the feature sets between various models and the hundreds if not thousands of features the AVR's support. HDMI RI is high on the list to control other attached devices that support HDMI RI
+ 
+However, I still believe it would be a great DESKTOP app, as there are no good desktop client's only handheld mobile apps, and I actually would love to control my stereo through my main workstation and check its status, etc. It would also be good for custom dedicated AVR computers that control home theater systems, etc. Could also be interesting as an AIR for TV app...
+ 
+In any case, feel free to pull it apart, tinker and contribute - I have put it out as a free resources to learn from.
+
+More to come soon.... 
