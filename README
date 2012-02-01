@@ -16,8 +16,6 @@ It works well for some of the most basic commonly used items, but there is quite
 AIR currently lacks support for UDP on mobile and broadcast adresses on UDP so a few features revolving around autoconfig that could be done via UPnP wont be possible until supported by AIR, but would be perfect candidates for implementing via an AIR Native Extension: https://www.adobe.com/devnet/air/articles/extending-air.html
 
 This project started out as a proof of concept and works pretty well, but I did not have the time to dedicate to completing it, and with Onkyo having released their own native app (check out version 2, their first implementation wasn't so hot) for iOS and Android, as well as great native apps like ORemote - I just didn't pursue it much further.
-
-It works well for some of the most basic commonly used items, but there is quite a bit to do including managing the feature sets between various models and the hundreds if not thousands of features the AVR's support. HDMI RI is high on the list to control other attached devices that support HDMI RI
  
 However, I still believe it would be a great DESKTOP app, as there are no good desktop client's only handheld mobile apps, and I actually would love to control my stereo through my main workstation and check its status, etc. It would also be good for custom dedicated AVR computers that control home theater systems, etc. Could also be interesting as an AIR for TV app...
  
